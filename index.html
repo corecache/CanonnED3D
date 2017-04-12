@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <!-- HTML meta refresh URL redirection -->
-   <meta http-equiv="refresh"
-   content="0; url=https://map.canonn.technology/ed3d/index.html">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <title>Canonn Guardian Site Galaxy Map</title>
+
+  <link href="http://fonts.googleapis.com/css?family=Orbitron:400" rel="stylesheet" type="text/css" />
+  <link href="css/ed3dmap.css" rel="stylesheet" type="text/css" />
+  <link href="css/edgs.css" rel="stylesheet" type="text/css" />
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r75/three.min.js"></script>
+  <!-- ED3Dmap -->
+  <script src="js/ed3dmap.min.js?v=5"></script>
+
+<script type="text/javascript">
+window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if$
+;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"f854da7a89",applicationID:"25925167",sa:1}
+</script>
+
+
 </head>
-<body>
-   <p>The page has moved to:
-   <a href="https://map.canonn.technology/ed3d/index.html">this page</a></p>
+
+  <body>
+
+
+
+    <div id="edmap"></div>
+
+
+
+  <script type="text/javascript">
+
+    Ed3d.init({
+        container   : 'edmap',
+        jsonPath    : "gs-json.php",
+        startAnim: true,
+                showGalaxyInfos: true,
+        withHudPanel : true,
+        hudMultipleSelect : true,
+        effectScaleSystem : [28,1000],
+        starSprite: "textures/lensflare/star_round.png"
+    });
+
+  </script>
+
+
+
 </body>
 </html>
