@@ -1,0 +1,5 @@
+Beta Build Version 1.11
+----------------------
+Changed to Canonn API: https://api.canonn.technology:8001/api/v1/galmaps/ruins
+Added Full Screen Toggle
+Changed Scale to 10, 1600
